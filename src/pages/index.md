@@ -11,6 +11,4 @@ links:
     text: ABOUT
   - link: /contact
     text: CONTACT
-  - link: /resume
-    text: RESUME
 ---
