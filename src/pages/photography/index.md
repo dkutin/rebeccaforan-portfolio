@@ -25,4 +25,6 @@ intro:
       text: IMG_12
     - image: /img/img_4103.jpg
       text: IMG_13
+    - image: /img/img_6675.jpg
+      text: IMG_20
 ---
