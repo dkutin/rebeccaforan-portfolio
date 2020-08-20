@@ -11,4 +11,6 @@ intro:
       text: IMG_2
     - image: /img/img_5249.jpg
       text: IMG_3
+    - image: /img/img_4547.jpg
+      text: IMG_4
 ---
