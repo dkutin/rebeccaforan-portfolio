@@ -31,4 +31,6 @@ intro:
       image: /img/img_8089.jpg
     - image: /img/img_9938.jpg
       text: IMG_24
+    - image: /img/img_8870jpg.jpg
+      text: IMG_25
 ---
