@@ -9,4 +9,6 @@ intro:
       text: IMG_1
     - image: /img/img_4551.jpg
       text: IMG_2
+    - image: /img/img_5249.jpg
+      text: IMG_3
 ---
