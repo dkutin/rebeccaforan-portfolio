@@ -2,7 +2,7 @@
 path: /photography
 templateKey: photography-page
 title: PHOTOGRAPHY
-image: /img/IMG_8617.jpg
+image: /img/IMG_9704.jpg
 intro:
   portfolio:
     - image: /img/IMG_2081.jpg
