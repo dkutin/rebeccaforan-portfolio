@@ -33,4 +33,6 @@ intro:
       text: IMG_24
     - image: /img/img_8870jpg.jpg
       text: IMG_25
+    - image: /img/img_1770.jpg
+      text: IMG_28
 ---
