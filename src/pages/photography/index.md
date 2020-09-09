@@ -35,6 +35,4 @@ intro:
       text: IMG_25
     - image: /img/img_9112.jpg
       text: IMG_30
-    - image: /img/img_5266.jpg
-      text: IMG_40
 ---
