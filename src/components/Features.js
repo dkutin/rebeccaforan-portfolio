@@ -2,6 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+const generateKey = () => {
+  var pre = (Math.random()*100).toString()
+  return `${ pre }_${ new Date().getTime() }`
+}
+
 var FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     <div className="column is-4" style={{height: '100%'}}>
@@ -17,10 +22,10 @@ var FeatureGrid = ({ gridItems }) => (
     )
   
 var formatItems = function(gridItems) {
-  console.log(gridItems)
   if (!gridItems.length || !gridItems) { return }
-  return gridItems.map((item) => (
-          <div
+  var nonce = generateKey()
+  return gridItems.map((item, index) => (
+          <div key={ nonce + index }
             style={{
               width: '100%',
               height: '100%',

@@ -10,7 +10,7 @@ export const PhotographyPageTemplate = ({
   title,
   intro,
 }) => (
-  <div>
+  <div key={ title }>
     <div
       className="full-width-image margin-top-0" id="img"
       style={{
@@ -52,7 +52,7 @@ export const PhotographyPageTemplate = ({
           <div className="columns">
             <div className="column is-12">
               <div className="content">
-                <Features key={intro.portfolio.text} gridItems={intro.portfolio} />
+                <Features key={title} gridItems={intro.portfolio} />
               </div>
             </div>
           </div>
