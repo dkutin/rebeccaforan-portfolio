@@ -1,5 +1,4 @@
 @import "~bulma/sass/utilities/initial-variables"
-@import "~bulma"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -105,9 +104,9 @@ $black: #2b2523
 .menu-list a.navbar-item
   color: #ffffff
   &:hover
-      text-decoration: underline;
+      text-decoration: underline
       color: $accent
-      background-color: unset;
+      background-color: unset
 
 .icon svg
   width: 1.5rem
@@ -134,10 +133,9 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
-  padding: 1.5em 2em;
+  padding: 1.5em 0
   > li
-    display: inline-block;
-  
+    display: inline-block
 
 .column.social
   padding: 2em
@@ -156,50 +154,54 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 .overlay
-  transition: 0.8s;
-  display: block;
-  position: absolute;
-  height: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1000;
+  transition: 0.8s
+  display: block
+  position: absolute
+  height: 100%
+  left: 0
+  right: 0
+  bottom: 0
+  opacity: 0
+  height: 100%
+  width: 100%
+  z-index: 1000
 .overlay:hover
-  transition: 0.8s;
+  transition: 0.8s
   opacity: 1
 .image-overlay
-  opacity: 0.4;
-  background: white;
-  height: 100%;
+  opacity: 0.4
+  background: white
+  height: 100%
 .text-overlay
-  z-index: 1002;
-  position: absolute;
-  background: black;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-  height: auto;
-  color: #BDD5EA;
+  z-index: 1002
+  position: absolute
+  background: black
+  top: 0
+  left: 0
+  padding: 1rem
+  height: auto
+  color: #BDD5EA
+form
+  width: 100%
 .text-overlay p 
-  font-size: 0.5rem;
-  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  font-size: 0.5rem
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New
+
+@import "~bulma"
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
   .homepage-link-container
     flex-direction: column
   .menu-list, .column & .social
@@ -209,16 +211,16 @@ $menu-label-color: $white-ter
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
   .homepage-link-container
     flex-direction: column
-    width: 265px;
+    width: 265px
   .full-width-image
-    background-size: fill;
-    background-position: bottom left;
-  .menu-list, .column & .social
+    background-size: fill
+    background-position: bottom left
+  .menu-list, .column + .social
     text-align: center !important
 
 .has-background-black 

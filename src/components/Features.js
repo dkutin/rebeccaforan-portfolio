@@ -17,7 +17,6 @@ var FeatureGrid = ({ gridItems }) => (
     )
   
 var formatItems = function(gridItems) {
-  console.log(gridItems);
   return gridItems.map((item) => (
           <div
             style={{
