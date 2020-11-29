@@ -11,8 +11,8 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-background-black has-text-white-ter">
-          <div className="has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns container">
+          <div className="container has-background-black has-text-white-ter">
+            <div style={{ maxWidth: '100vw' }} className="columns">
               <div className="column is-6">
                 <section className="menu">
                   <ul className="menu-list">
