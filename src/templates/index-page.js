@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
       
       <div className="homepage-link-container">
         {links.map((link) => (
-            <Link className="homepage-link" to={link.link}>
+            <Link key={link.link} className="homepage-link" to={link.link}>
               {link.text}
             </Link>
         ))}

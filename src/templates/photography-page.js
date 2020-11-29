@@ -52,7 +52,7 @@ export const PhotographyPageTemplate = ({
           <div className="columns">
             <div className="column is-12">
               <div className="content">
-                <Features gridItems={intro.portfolio} />
+                <Features key={intro.portfolio.text} gridItems={intro.portfolio} />
               </div>
             </div>
           </div>

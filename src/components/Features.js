@@ -17,6 +17,8 @@ var FeatureGrid = ({ gridItems }) => (
     )
   
 var formatItems = function(gridItems) {
+  console.log(gridItems)
+  if (!gridItems.length || !gridItems) { return }
   return gridItems.map((item) => (
           <div
             style={{
