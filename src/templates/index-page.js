@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import logo from '../img/logo.svg'
 
 import Layout from '../components/Layout'
 
@@ -21,6 +22,11 @@ export const IndexPageTemplate = ({
         display: 'block',
       }}
     >
+      <div className="index-logo">
+        <Link to="/" title="Logo">
+          <img src={logo} alt="Rebecca Foran Logo" style={{ width: '35px'}} />
+        </Link>
+      </div>
       <div style={{
                   position: 'relative',
                   top: '25vh'}}>
