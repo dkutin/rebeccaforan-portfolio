@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
     >
       <div style={{
                   position: 'relative',
-                  top: '35vh'}}>
+                  top: '25vh'}}>
         <div
           style={{
             display: 'flex',

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -53,13 +53,6 @@ export const PhotographyPageTemplate = ({
             <div className="column is-12">
               <div className="content">
                 <Features gridItems={intro.portfolio} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn disabled">
-                      See all items
-                    </Link>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

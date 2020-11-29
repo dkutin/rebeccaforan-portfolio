@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "~bulma"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -15,20 +16,15 @@ $black: #2b2523
 .navbar .navbar-menu
   box-shadow:none !important
 
-.content .taglist
+.content, .taglist
   list-style: none
-  margin-bottom: 0
-  margin-left: 0
-  margin-right: 1.5rem
-  margin-top: 1.5rem
   display: flex
   flex-wrap: wrap
   justify-content: left
   align-items: center
-  li
-    padding: 0 2rem 1rem 0
-    margin-bottom: 1.5rem
-    margin-top: 0
+  ul
+    margin-top: 0 !important
+    margin-left: 0 !important
 
 // Helper Classes
 .full-width-image-container
@@ -76,12 +72,12 @@ $black: #2b2523
 .homepage-link-container
   display: flex
   height: auto
-  width: 40%
+  width: 35%
   line-height: 1
   justify-content: space-around
   flex-direction: row
   position: relative
-  top: 45vh
+  top: 35vh
   margin: auto
   text-align: center
 
@@ -106,15 +102,21 @@ $black: #2b2523
 .navbar-item .icon
   color: $primary
   text-align: center
-// Override for use of svg's from https://simpleicons.org/
+.menu-list a.navbar-item
+  color: #ffffff
+  &:hover
+      text-decoration: underline;
+      color: $accent
+      background-color: unset;
+
 .icon svg
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
+.navbar-brand .navbar-item .logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 2rem 0
   background-color: transparent
 
 //Menu overrides
@@ -126,15 +128,20 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
 
-
 .menu-label
   font-size: 1em !important
   text-align: left
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em !important
+  padding: 1.5em 2em;
+  > li
+    display: inline-block;
+  
+
+.column.social
+  padding: 2em
+  text-align: right
 .social a
     padding: .5em .5em .3em .5em !important
     border-radius: 1em
@@ -144,6 +151,8 @@ $menu-label-color: $white-ter
     height: 1em
     vertical-align: middle
     display: inline
+    &:hover 
+      background-color: $accent
 
 // blog roll
 .blog-list-item.is-featured
@@ -187,15 +196,14 @@ $menu-label-color: $white-ter
   font-size: 0.5rem;
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 
-@import "~bulma"
-
-
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
   .homepage-link-container
     flex-direction: column
+  .menu-list, .column & .social
+    text-align: center !important
 
 +mobile
   .blog-list-item header
@@ -207,6 +215,11 @@ $menu-label-color: $white-ter
   .homepage-link-container
     flex-direction: column
     width: 265px;
+  .full-width-image
+    background-size: fill;
+    background-position: bottom left;
+  .menu-list, .column & .social
+    text-align: center !important
 
 .has-background-black 
   background-color: #616f75 !important
