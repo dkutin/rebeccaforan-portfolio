@@ -11,14 +11,24 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
+          <div className="has-background-black has-text-white-ter">
+            <div style={{ maxWidth: '100vw' }} className="columns container">
               <div className="column is-6">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/" >
                         Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/photography">
+                        Photography
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/artwork">
+                        Artwork
                       </Link>
                     </li>
                     <li>
