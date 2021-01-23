@@ -43,12 +43,11 @@ export const ArtworkPageTemplate = ({ image, title, intro }) => (
     </div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-12">
-              <div className="content">
-                <Features key={title} gridItems={intro.portfolio} />
-              </div>
+        <div className="columns">
+          <div className="column is-12">
+            <div className="content">
+              {console.log(intro.portfolio)}
+              <Features key={title} gridItems={intro.portfolio} />
             </div>
           </div>
         </div>
