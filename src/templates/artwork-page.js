@@ -5,12 +5,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 
-export const ArtworkPageTemplate = ({
-  image,
-  title,
-  intro,
-}) => (
-  <div key={ title }>
+export const ArtworkPageTemplate = ({ image, title, intro }) => (
+  <div key={title}>
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -34,8 +30,7 @@ export const ArtworkPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              '#616f75 0.5rem 0px 0px, #616f75 -0.5rem 0px 0px',
+            boxShadow: '#616f75 0.5rem 0px 0px, #616f75 -0.5rem 0px 0px',
             backgroundColor: '#616f75',
             color: 'white',
             lineHeight: '1',
@@ -48,12 +43,10 @@ export const ArtworkPageTemplate = ({
     </div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-12">
-              <div className="content">
-                <Features key={title} gridItems={intro.portfolio} />
-              </div>
+        <div className="columns">
+          <div className="column is-12">
+            <div className="content">
+              <Features key={title} gridItems={intro.portfolio} />
             </div>
           </div>
         </div>

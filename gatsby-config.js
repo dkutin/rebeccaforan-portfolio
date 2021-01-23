@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rebecca Foran',
+    title: 'Rebecca Foran - Portfolio',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'My personal portfolio showcasing artwork 🖼, photography 📷, and other achievements.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -38,6 +38,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
+              oath: `${__dirname}/src/img`,
               name: 'uploads',
             },
           },

@@ -9,6 +9,4 @@ links:
     text: ARTWORK
   - link: /about
     text: ABOUT
-  - link: /contact
-    text: CONTACT
 ---
