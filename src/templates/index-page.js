@@ -5,11 +5,7 @@ import logo from '../img/logo.svg'
 
 import Layout from '../components/Layout'
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  links,
-}) => (
+export const IndexPageTemplate = ({ image, title, links }) => (
   <div>
     <div
       className="full-width-image margin-top-0"
@@ -24,12 +20,15 @@ export const IndexPageTemplate = ({
     >
       <div className="index-logo">
         <Link to="/" title="Logo">
-          <img src={logo} alt="Rebecca Foran Logo" style={{ width: '35px'}} />
+          <img src={logo} alt="Rebecca Foran Logo" style={{ width: '35px' }} />
         </Link>
       </div>
-      <div style={{
-                  position: 'relative',
-                  top: '25vh'}}>
+      <div
+        style={{
+          position: 'relative',
+          top: '25vh',
+        }}
+      >
         <div
           style={{
             display: 'flex',
@@ -52,15 +51,14 @@ export const IndexPageTemplate = ({
           </h1>
         </div>
       </div>
-      
+
       <div className="homepage-link-container">
         {links.map((link) => (
-            <Link key={link.link} className="homepage-link" to={link.link}>
-              {link.text}
-            </Link>
+          <Link key={link.link} className="homepage-link" to={link.link}>
+            {link.text}
+          </Link>
         ))}
       </div>
-      
     </div>
   </div>
 )
@@ -68,14 +66,14 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  links: PropTypes.array
+  links: PropTypes.array,
 }
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout hidenav='true'>
+    <Layout hidenav="true">
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
@@ -108,8 +106,8 @@ export const pageQuery = graphql`
           }
         }
         links {
-            link
-            text
+          link
+          text
         }
       }
     }

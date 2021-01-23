@@ -41,7 +41,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Rebecca Foran Logo" style={{ width: '35px'}} />
+              <img
+                src={logo}
+                alt="Rebecca Foran Logo"
+                style={{ width: '35px' }}
+              />
             </Link>
             {/* eslint-disable-next-line */}
             <div

@@ -25,4 +25,4 @@ ArtworkPagePreview.propTypes = {
   getAsset: PropTypes.func,
 }
 
-export default ArtworkPagePreview 
+export default ArtworkPagePreview
