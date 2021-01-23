@@ -46,7 +46,6 @@ export const ArtworkPageTemplate = ({ image, title, intro }) => (
         <div className="columns">
           <div className="column is-12">
             <div className="content">
-              {console.log(intro.portfolio)}
               <Features key={title} gridItems={intro.portfolio} />
             </div>
           </div>
