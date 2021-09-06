@@ -6,21 +6,21 @@ image: /img/img_8208.jpg
 intro:
   portfolio:
     - image: /img/img_8204.jpg
-      text: "Terre Bleu Lavender Farm, Milton, ON 2021 "
+      text: IMG_1
     - image: /img/img_8205.jpg
-      text: Botanical Gardens, Montreal, Quebec, 2021
+      text: IMG_2
     - image: /img/img_8206.jpg
-      text: Burlington, ON, 2019
+      text: IMG_3
     - image: /img/img_8207.jpg
-      text: Varadero, Cuba, 2019-1
+      text: IMG_4
     - image: /img/img_8208.jpg
-      text: Niagara Falls, ON 2018
+      text: IMG_5
     - image: /img/img_8209.jpg
-      text: Scarborough Bluffs, ON
+      text: IMG_6
     - image: /img/img_8210.jpg
-      text: Varadero, Cuba 2019-2
+      text: IMG_7
     - image: /img/img_8211.jpg
-      text: Punta Cana, Dominican Republic 2019
+      text: IMG_8
     - image: /img/img_8212.jpg
-      text: Ever After Festival, 2017
+      text: IMG_9
 ---
