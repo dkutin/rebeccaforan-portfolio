@@ -2,41 +2,25 @@
 path: /photography
 templateKey: photography-page
 title: PHOTOGRAPHY
-image: /img/IMG_8752.jpg
+image: /img/img_8208.jpg
 intro:
   portfolio:
-    - image: /img/IMG_2081.jpg
-      text: IMG_1
-    - image: /img/IMG_3551.jpg
-      text: IMG_8
-    - image: /img/img_1593.jpg
-      text: IMG_7
-    - image: /img/img_1894.jpg
-      text: IMG_2
-    - image: /img/IMG_8617.jpg
-      text: IMG_6
-    - image: /img/IMG_8752.jpg
-      text: IMG_9
-    - image: /img/IMG_8751.jpg
-      text: IMG_10
-    - image: /img/img_8006.jpg
-      text: IMG_11
-    - image: /img/img_5163.jpg
-      text: IMG_12
-    - image: /img/img_4103.jpg
-      text: IMG_13
-    - image: /img/img_6675.jpg
-      text: IMG_20
-    - text: IMG_22
-      image: /img/img_8089.jpg
-    - image: /img/img_9938.jpg
-      text: IMG_24
-    - image: /img/img_8870jpg.jpg
-      text: IMG_25
-    - image: /img/img_9112.jpg
-      text: IMG_30
-    - image: /img/img_1526.jpg
-      text: IMG_54
-    - image: /img/img_6018.jpeg
-      text: IMG_66
+    - image: /img/img_8204.jpg
+      text: Terre Bleu Lavender Farm, Milton, ON 2021
+    - image: /img/img_8205.jpg
+      text: Botanical Gardens, Montreal, Quebec, 2021
+    - image: /img/img_8206.jpg
+      text: Burlington, ON, 2019
+    - image: /img/img_8207.jpg
+      text: Varadero, Cuba, 2019-1
+    - image: /img/img_8208.jpg
+      text: Niagara Falls, ON 2018
+    - image: /img/img_8209.jpg
+      text: Scarborough Bluffs, ON
+    - image: /img/img_8210.jpg
+      text: Varadero, Cuba 2019-2
+    - image: /img/img_8211.jpg
+      text: Punta Cana, Dominican Republic 2019
+    - image: /img/img_8212.jpg
+      text: Ever After Festival, 2017
 ---
