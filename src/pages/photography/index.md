@@ -6,7 +6,7 @@ image: /img/img_8208.jpg
 intro:
   portfolio:
     - image: /img/img_8204.jpg
-      text: Terre Bleu Lavender Farm, Milton, ON 2021
+      text: "Terre Bleu Lavender Farm, Milton, ON 2021 "
     - image: /img/img_8205.jpg
       text: Botanical Gardens, Montreal, Quebec, 2021
     - image: /img/img_8206.jpg
